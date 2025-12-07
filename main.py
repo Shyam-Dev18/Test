@@ -41,7 +41,7 @@ def download_video_with_cookies():
             logging.info(f"🍪 SUCCESS: Using cookie file found at: {cookie_file}")
             # 3. Configure yt-dlp options
             ydl_opts = {
-                'format': 'bestvideo[ext=mp4]',
+                'format': 'bestvideo[ext=mp4]/bestvideo',
                 'outtmpl': OUTPUT_TEMPLATE,
                 'cookiefile': cookie_file,  # Use the path from the environment variable
                 'noplaylist': True,
