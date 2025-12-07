@@ -5,7 +5,7 @@ from yt_dlp import YoutubeDL
 
 # --- Configuration ---
 # 1. Hardcoded video URL to test (use a publicly available video for initial tests)
-VIDEO_URL = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"  # Rickroll for testing!
+VIDEO_URL = "https://www.youtube.com/watch?v=s78np22i9W8"  # Rickroll for testing!
 
 # 2. Environment variable name where your cookie file path is stored
 # Koyeb Secrets often set environment variables; e.g., COOKIE_FILE_PATH='/path/to/cookies.txt'
